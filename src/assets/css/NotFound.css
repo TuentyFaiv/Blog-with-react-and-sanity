@@ -1,0 +1,17 @@
+.NotFound {
+  min-height: calc(100vh - 190px);
+  padding: 30px 0 0 0;
+}
+
+.NotFound h1,
+.NotFound h2 {
+  text-align: center;
+}
+
+.NotFound h1 {
+  font-size: 40px;
+}
+
+.NotFound h2 {
+  font-size: 30px;
+}

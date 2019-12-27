@@ -1,0 +1,39 @@
+.blogs {
+  min-height: calc(100vh - 160px);
+}
+
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px 150px;
+}
+
+.blogs-grid div {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.blogs-grid a {
+  color: white;
+}
+
+.blogs-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.blogs-grid h3 {
+  position: absolute;
+  display: none;
+  margin: 0;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+}
+
+.blogs-grid div:hover h3 {
+  display: block;
+}
