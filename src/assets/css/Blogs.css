@@ -37,3 +37,55 @@
 .blogs-grid div:hover h3 {
   display: block;
 }
+
+@media screen and (max-width: 1024px) {
+  .blogs-grid {
+    padding: 10px 100px;
+  }
+
+  .blogs-grid div,
+  .blogs-grid img{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blogs-grid {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .blogs-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px 50px;
+  }
+
+  .blogs-grid div,
+  .blogs-grid img{
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .blogs-grid {
+    padding: 10px 35px;
+  }
+
+  .blogs-grid div,
+  .blogs-grid img{
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .blogs-grid {
+    padding: 10px 25px;
+  }
+
+  .blogs-grid div,
+  .blogs-grid img{
+    height: 135px;
+  }
+}
