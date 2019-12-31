@@ -1,5 +1,5 @@
 import React from 'react';
-import { urlFor } from './UrlFor';
+import { urlFor } from '../hoc/UrlFor';
 
 import '../assets/css/Blog.css';
 
